@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Module 1 Exam</title>
+    <meta aria-details="Module Examination made by Earl Coral" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <main class="pt-8 pb-16">
+      <!-- Header -->
+      <header>
+        <div class="container mx-auto flex px-5">
+          <div class="flex-1">
+            <img class="h-24" src="/images/logo.png" alt="logo" />
+          </div>
+          <div class="w-2/3 flex justify-end gap-4">
+            <p class="text-sm py-2">Store Address:</p>
+            <ul>
+              <li>Sloopy's Sports Cafe</li>
+              <li>P.O. Box 480</li>
+              <li>Lakeside, OH 43440</li>
+              <li>Phone: 419-798-4457</li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <!-- Form Application -->
+      <section class="mx-auto container px-2">
+        <!-- Title -->
+        <div class="text-center">
+          <h1 class="text-3xl font-bold">Application for Employment</h1>
+          <p class="text-xs">
+            This Sloopy's Sports Cafe store is Independently Owned and Operated
+            By J.Sisters, Inc. of Brunswick DBA Sloopy's Sports Cafe
+          </p>
+        </div>
+
+        <!-- 1st Row -->
+        <div class="flex border-2 border-black">
+          <div class="flex-1 border-r-2 border-black relative">
+            <div class="flex justify-between text-xs px-1 absolute inset-x-0">
+              <p>Name: (Last)</p>
+              <p>(First)</p>
+              <p>(Middle Initial)</p>
+            </div>
+            <input type="text" class="w-full pt-4 pb-2 px-1" />
+          </div>
+          <div class="w-1/4 relative">
+            <div class="flex justify-between text-xs px-1 absolute inset-x-0">
+              <p>Social Security Number</p>
+            </div>
+            <input type="text" class="w-full pt-4 pb-2 px-1" />
+          </div>
+        </div>
+
+        <!-- 2nd Row -->
+        <div>
+          <p class="px-2 text-sm">Local Address:</p>
+          <div class="flex border-2 border-black">
+            <div class="flex-1 border-black relative">
+              <div class="flex justify-between text-xs px-1 absolute inset-x-0">
+                <p class="flex-1">Street Address</p>
+                <p class="w-2/12">City</p>
+                <p class="w-1/12">State</p>
+                <p class="w-1/12">Zip Code</p>
+                <p class="w-1/12">Country</p>
+              </div>
+              <input type="text" class="w-full pt-4 pb-2 px-1" />
+            </div>
+          </div>
+        </div>
+
+        <!-- 3rd Row -->
+        <div>
+          <p class="px-2 text-sm">
+            Home Address: (If different from local address)
+          </p>
+          <div class="flex border-2 border-black">
+            <div class="flex-1 border-black relative">
+              <div class="flex justify-between text-xs px-1 absolute inset-x-0">
+                <p class="flex-1">Street Address</p>
+                <p class="w-2/12">City</p>
+                <p class="w-1/12">State</p>
+                <p class="w-1/12">Zip Code</p>
+                <p class="w-1/12">Country</p>
+              </div>
+              <input type="text" class="w-full pt-4 pb-2 px-1" />
+            </div>
+          </div>
+        </div>
+
+        <!-- 4th Row -->
+        <div>
+          <p class="p-1 text-sm"></p>
+          <div class="flex border-2 border-black">
+            <div class="w-1/4 border-black border-r-2 relative">
+              <div class="flex justify-between text-xs px-1 absolute inset-x-0">
+                <p class="flex-1">Phone Number</p>
+              </div>
+              <input type="text" class="w-full pt-4 pb-2 px-1" />
+            </div>
+            <div class="w-1/4 border-black border-r-2 relative">
+              <div class="flex justify-between text-xs px-1 absolute inset-x-0">
+                <p class="flex-1">Mobile Phone Number</p>
+              </div>
+              <input type="text" class="w-full pt-4 pb-2 px-1" />
+            </div>
+            <div class="flex-1 border-black relative">
+              <div class="flex justify-between text-xs px-1 absolute inset-x-0">
+                <p class="flex-1">Email Adress</p>
+              </div>
+              <input type="text" class="w-full pt-4 pb-2 px-1" />
+            </div>
+          </div>
+        </div>
+
+        <!-- 5th Row -->
+        <div>
+          <p class="py-1"></p>
+          <div class="flex border-2 border-black text-sm [&>*]:px-1">
+            <div class="border-r-2 border-black flex-1">
+              Are you a citizen of the U.S. or do you have a legal right to work
+              in the US?
+            </div>
+            <div
+              class="border-r-2 border-black w-2/12 flex flex-col items-center py-1"
+            >
+              <p>Yes</p>
+              <input type="checkbox" />
+            </div>
+            <div
+              class="border-r-2 border-black w-2/12 flex flex-col items-center py-1"
+            >
+              <p>No</p>
+              <input type="checkbox" />
+            </div>
+            <div class="flex-1">
+              Any offer of employment is conditional upon you completing Form
+              I-9 and providing documents establishing your identity and work
+              authorization.
+            </div>
+          </div>
+        </div>
+
+        <!-- 6th Row -->
+        <div>
+          <p class="py-1"></p>
+          <div class="flex border-2 border-black text-sm [&>*]:px-1">
+            <div class="border-r-2 border-black flex-1">
+              Are you 18 years of age or older?
+            </div>
+            <div
+              class="border-r-2 border-black w-2/12 flex flex-col items-center py-1"
+            >
+              <p>Yes</p>
+              <input type="checkbox" />
+            </div>
+            <div
+              class="border-r-2 border-black w-2/12 flex flex-col items-center py-1"
+            >
+              <p>No</p>
+              <input type="checkbox" />
+            </div>
+            <div class="flex-1">
+              If under 18 years of age, applicant will be required to submit a
+              birth certificate or work certificate as required by State or
+              Federal Law.
+            </div>
+          </div>
+        </div>
+
+        <!-- 7th Row -->
+        <div>
+          <p class="py-1"></p>
+          <div class="flex border-2 border-black text-sm [&>*]:px-1">
+            <div class="border-r-2 border-black flex-1">
+              Have you ever pleaded "guilty", "no-contest" or been convicted of
+              a crime?
+            </div>
+            <div
+              class="border-r-2 border-black w-2/12 flex flex-col items-center py-1"
+            >
+              <p>Yes</p>
+              <input type="checkbox" />
+            </div>
+            <div
+              class="border-r-2 border-black w-2/12 flex flex-col items-center py-1"
+            >
+              <p>No</p>
+              <input type="checkbox" />
+            </div>
+            <div class="flex-1">If "Yes", When and Where?</div>
+          </div>
+          <div class="relative border-b-2 border-x-2 border-black">
+            <div class="flex justify-between text-xs px-1 absolute inset-x-0">
+              <p class="flex-1">If "Yes", please provide details:</p>
+            </div>
+            <input type="text" class="w-full pt-4 pb-2 px-1" />
+          </div>
+        </div>
+
+        <!-- 8th Row -->
+        <div>
+          <p class="py-1"></p>
+          <div class="border-2 border-black">
+            <div class="flex border-b border-black">
+              <div class="w-4/12 border-r border-black p-1">
+                Type of employment desired:
+              </div>
+              <div
+                class="w-2/12 border-r border-black flex gap-2 items-center p-1"
+              >
+                <label>Full-Time</label>
+                <input type="checkbox" />
+              </div>
+              <div
+                class="w-2/12 border-r border-black flex gap-2 items-center p-1"
+              >
+                <label>Part-Time</label>
+                <input type="checkbox" />
+              </div>
+              <div class="w-4/12 flex [&>*]:p-1">
+                <p>Date Available To Start:</p>
+                <input class="flex-1 min-w-0" type="date" />
+              </div>
+            </div>
+            <div class="flex border-b border-black">
+              <div class="w-1/2 border-r border-black flex gap-1 [&>*]:p-1">
+                <p>How many hours per week would you like to work?</p>
+                <input class="flex-1" type="text" />
+              </div>
+              <div class="w-1/2 border-black flex gap-1 [&>*]:p-1">
+                <p>How far do you live from the restaurant?</p>
+                <input class="flex-1" type="text" />
+              </div>
+            </div>
+            <div class="flex border-black relative [&>*]:px-1">
+              <p class="absolute">How were you referred to us?</p>
+              <input class="flex-1 pt-5" type="text" />
+            </div>
+          </div>
+        </div>
+
+        <!-- 9th Row -->
+        <div>
+          <h3 class="text-center font-bold text-lg">Availability</h3>
+          <div
+            class="grid grid-cols-12 border border-black [&>*]:px-1 text-center"
+          >
+            <div class="col-span-4 border border-black">
+              Hours Available To Work
+            </div>
+            <div class="border border-black"></div>
+            <div class="border border-black">Mon</div>
+            <div class="border border-black">Tue</div>
+            <div class="border border-black">Wed</div>
+            <div class="border border-black">Thur</div>
+            <div class="border border-black">Fri</div>
+            <div class="border border-black">Sat</div>
+            <div class="border border-black">Sun</div>
+            <div class="col-span-4 border border-black">From:</div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="col-span-4 border border-black">To:</div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="col-span-4 border border-black">From:</div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="col-span-4 border border-black">To:</div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="col-span-4 border border-black">From:</div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="col-span-4 border border-black">To:</div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+            <div class="border border-black"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
